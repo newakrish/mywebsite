@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krish Shrestha | Developer</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a href="#home" class="logo">Krish <span>Shrestha</span></a>
+
+        <div class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <button class="mobile-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <!-- Hero content will go here -->
+        <div class="container hero-container">
+          <div class="hero-content">
+            <span class="greeting">Hi there! I'm</span>
+            <h1>Krish Shrestha</h1>
+            <p class="subtitle">
+              Turning complex problems into elegant digital solutions.
+            </p>
+          </div>
+          <div class="hero-image">
+            <!-- Image will be inserted here -->
+            <div class="image-wrapper">
+              <img src="./assets/hero-image.png" alt="Krish Shrestha" />
+
+              <!-- Floating Icons -->
+              <div class="floating-icon icon-python" style="--i: 1">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                  alt="Python"
+                />
+              </div>
+              <div class="floating-icon icon-c" style="--i: 2">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                  alt="C"
+                />
+              </div>
+              <div class="floating-icon icon-css" style="--i: 3">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  alt="CSS"
+                />
+              </div>
+              <div class="floating-icon icon-figma" style="--i: 4">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                  alt="Figma"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container about-container">
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+              I am a passionate developer who loves to build things for the web.
+              I specialize in turning complex problems into simple, beautiful,
+              and intuitive designs.
+            </p>
+
+            <div class="skills">
+              <h3>Technical Skills</h3>
+              <div class="skill-tags">
+                <span>Python</span><span>C</span><span>HTML/CSS</span
+                ><span>JavaScript</span><span>React</span><span>Figma</span>
+                <span>C++</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="container">
+          <h2 class="section-title">Education</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="date">2024 - Present</div>
+              <div class="content">
+                <h3>Bachelor in Computer Engineering</h3>
+                <p>Kathmandu Engineering College</p>
+                <p>
+                  Currently pursuing my degree with a focus on software
+                  development and algorithms.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="date">2021 - 2023</div>
+              <div class="content">
+                <h3>Liverpool International College</h3>
+                <p>Science Major</p>
+                <p>Graduated with honors.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="date">2016 - 2021</div>
+              <div class="content">
+                <h3>Oracle Ray Academy</h3>
+                <p>Secondary Education Examinations</p>
+                <p>Graduated with honors.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container contact-container">
+          <div class="contact-info">
+            <h2>Let's work together</h2>
+            <p>Have a project in mind? Or just want to say hi?</p>
+            <div class="contact-links">
+              <a href="#" class="contact-link"
+                >📧 krishshrestha3131@gmail.com</a
+              >
+              <div class="socials">
+                <a href="https://www.facebook.com/krish.shrestha.3110"
+                  >Facebook</a
+                >
+                <a href="https://github.com/newakrish">GitHub</a>
+                <a href="https://www.instagram.com/krish_crestha/">Instagram</a>
+                <a href="https://www.linkedin.com/in/krish-shrestha-5b3414329/"
+                  >Linkedin</a
+                >
+              </div>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your Name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Your Email" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                rows="5"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2026 Krish Shrestha. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
